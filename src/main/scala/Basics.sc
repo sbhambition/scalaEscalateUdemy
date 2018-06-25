@@ -45,6 +45,15 @@ for(i<- 0 to 2) print(greetStrings(i))
 "hello" charAt 3
 //use infix rule instead, since we have only one parameter passed to charAt
 
+val nums = Array (1,2,3,4)
+val nums1 = Array.apply(1,2,3,4)
+
+//Consing list
+
+val oneTwo = List(1,2)
+val threeFour = List(3,4)
+val oneTwoThreeFour = oneTwo:::threeFour
+"subash"::oneTwo
 
 
 
